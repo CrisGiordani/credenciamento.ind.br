@@ -1,7 +1,7 @@
-# credenciamento.ind.br
+## credenciamento.ind.br
 Sistema de Credenciamento
 
-# Atores
+## Atores
 - Administrador: pessoa usuária do sistema - nível de acesso 3
 - Operador: pessoa usuária do sistema - nível de acesso 2
 - Recepcionista: pessoa usuária do sistema - nível de acesso 1
@@ -62,8 +62,7 @@ Sistema de Credenciamento
 - [ ] Deve ser possível exibir a ficha de resumo do convidado ao clicar sobre o nome
 
 
-#
-# REGRAS DE NEGÓCIO
+## REGRAS DE NEGÓCIO
 
 - [ ] Toda pessoa cadastrada deve ter um email válido e único
 - [ ] Toda organização cadastrada ter um CNPJ válido e único
@@ -74,7 +73,7 @@ Sistema de Credenciamento
 - [ ] A importação da lista de confirmados mantém os assentos já definidos
 - [ ] Eventos poderão ocorrer em mesma data e horário
 
-# REQUISITOS NÃO FUNCIONAIS
+## REQUISITOS NÃO FUNCIONAIS
 
 - [ ] A senha do usuário precisa estar criptografada
 - [ ] Os dados do sistema precisam estar persistidos em um banco de dados postgres
@@ -82,16 +81,16 @@ Sistema de Credenciamento
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token)
 - [ ] As fotos das pessoas devem ser carregadas automaticamente do Linkedin
 
-# NÍVEIS DE ACESSO
-
+## NÍVEIS DE ACESSO
+# Nível 3
 - [ ] Usuários de nível 3 podem cadastrar usuários de todos os níveis
 - [ ] Usuários de nivel 3 devem ter acesso às recepções de todos os eventos
 - [ ] Usuários de nivel 3 devem ter acesso mapas de todos os eventos
-
+# Nível 2
 - [ ] Usuários de nível 2 podem cadastrar apenas usuários de nível 1
 - [ ] Usuários de nivel 2 devem ter acesso às recepções de todos os eventos
 - [ ] Usuários de nivel 2 devem ter acesso mapas de todos os eventos
-
+# Nível 1
 - [ ] Usuários de nível 1 não podem ter acesso ao sistema administrativo
 - [ ] Usuários de nível 1 devem acessar apenas recepções dos eventos que foram vinculados
 - [ ] Usuários de nivel 1 devem acessar apenas mapas dos eventos que foram vinculadas
